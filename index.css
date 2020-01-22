@@ -34,3 +34,19 @@ body {
     min-width: 50%
   }
 }
+
+.modal {
+  color: #000
+}
+
+.border {
+  padding: 0.25rem
+}
+
+.spaces {
+  margin-bottom: 0.25rem
+}
+
+#required {
+  color: #F00
+}
