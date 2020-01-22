@@ -1,0 +1,36 @@
+body {
+  background-color: #000;
+  color: #FFF;
+  user-select: none
+}
+
+.navbar {
+  background: linear-gradient(#00000000, #00A 25%, #00A 75%, #00000000)
+}
+
+.nav-item > .dropdown-menu > .dropdown-item {
+  cursor: pointer
+}
+
+#collapsible {
+  justify-content: center
+}
+
+#carousel {
+  padding: 0.25rem;
+  background: linear-gradient(#00000000, #00A)
+}
+
+.carousel-caption {
+  background: linear-gradient(90deg, #00000000, #000000AA, #000000AA, #00000000)
+}
+
+#gallery {
+  min-width: 100%
+}
+
+@media (min-width: 992px) {
+  #gallery {
+    min-width: 50%
+  }
+}
